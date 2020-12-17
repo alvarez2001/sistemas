@@ -1,0 +1,17 @@
+.a-card-data:hover {
+    text-decoration: none;
+}
+.card-data {
+    border-radius: 12px;
+    background-color: $--bgSidemenu;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+.card-data .card-header {
+    color: $--white;
+    border-color: transparent;
+}
+.card-data .card-body {
+    background-color: transparent;
+}

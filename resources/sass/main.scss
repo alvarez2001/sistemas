@@ -1,0 +1,95 @@
+.fondoLogin {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.card-login {
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #00000000;
+    background-color: $--white-opaco;
+}
+
+.card-login > .card-header {
+    border: none;
+    position: relative;
+}
+.card-login .card-header img {
+    position: absolute;
+    background-color: $--white-opaco;
+    border-radius: 1000px;
+    width: 100px;
+    height: 100px;
+    top: -50px;
+}
+
+.btn-caritas,
+.btn-caritas:hover {
+    background-color: $--main-color-caritas;
+    color: $--white;
+}
+.btn-caritas:focus {
+    box-shadow: 0 0 1px 0.8px $--main-color-caritas;
+}
+.btn-caritas:hover {
+    background-color: $--bgSidemenu;
+}
+.centrado-absoluto {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.form-group {
+    label {
+        text-transform: capitalize;
+    }
+}
+
+.form-control,
+.custom-file-input,
+.custom-file-label,
+.was-validated .form-control:invalid,
+.was-validated .form-control:valid,
+.was-validated .custom-file-input:invalid ~ .custom-file-label,
+.was-validated .custom-file-input:valid ~ .custom-file-label {
+    border: 1px solid $--main-color-caritas;
+    outline: 0;
+}
+.form-control:focus,
+.custom-file-input:focus,
+.custom-file-label:focus,
+.custom-file-input:focus ~ .custom-file-label,
+.was-validated .form-control:invalid:focus,
+.was-validated .form-control:valid:focus,
+.was-validated .custom-file-input:invalid:focus ~ .custom-file-label,
+.was-validated .custom-file-input:valid:focus ~ .custom-file-label {
+    box-shadow: 0 0 1px 0.8px $--main-color-caritas;
+    border-color: inherit;
+}
+
+.custom-file-label::after {
+    content: "Buscar";
+    color: $--white;
+    background-color: $--main-color-caritas;
+}
+
+textarea.textarea {
+    height: 150px;
+    width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+}
+.imagen-presubida {
+    max-width: 150px;
+    max-height: 150px;
+    cursor: pointer;
+}
+.bg-caritas {
+    background-color: $--main-color-caritas;
+}
+.bg-caritas-oscuro {
+    background-color: $--bgSidemenu;
+}
